@@ -1,0 +1,94 @@
+[
+    {
+        "anada": 1931,
+        "imagenEtiqueta": "",
+        "nombre": "Vino 1",
+        "notaDeCataBodega": "Un vino tinto joven con aromas intensos a moras y un sabor equilibrado.",
+        "precioArs": 524,
+        "varietal": [
+            {
+                "descripcion": "rico"
+            },
+            {
+                "descripcion": "suave"
+            }
+        ],
+        "maridaje": [
+            {
+                "nombre": "Quesos y Embutidos",
+                "descripcion": "Un acompañamiento clásico con una variedad de quesos y embutidos."
+            }
+        ],
+        "bodega": {
+            "nombre": "Mira que vino",
+            "regionProvinciaPais": {
+                "region": "Tierra",
+                "provincia": "Cordoba",
+                "pais": "Argentina"
+            }
+        },
+        "resenas": [
+            {
+                "comentario": "Una opción perfecta para celebraciones.",
+                "premium": false,
+                "fechaResena": "12/6/2019",
+                "puntaje": 7
+            },
+            {
+                "comentario": "Perfecto para días calurosos.",
+                "premium": true,
+                "fechaResena": "8/9/2022",
+                "puntaje": 2
+            }
+        ]
+    },
+    {
+        "anada": 1867,
+        "imagenEtiqueta": "",
+        "nombre": "Vino 2",
+        "notaDeCataBodega": "Un vino tinto robusto con notas de cuero y especias, ideal para carnes a la parrilla.",
+        "precioArs": 727,
+        "varietal": [
+            {
+                "descripcion": "rico"
+            },
+            {
+                "descripcion": "suave"
+            }
+        ],
+        "maridaje": [
+            {
+                "nombre": "Platos de Pollo",
+                "descripcion": "Recetas de pollo que combinan con una amplia gama de vinos blancos y tintos ligeros."
+            }
+        ],
+        "bodega": {
+            "nombre": "Mira que vino",
+            "regionProvinciaPais": {
+                "region": "Tierra",
+                "provincia": "Cordoba",
+                "pais": "Argentina"
+            }
+        },
+        "resenas": [
+            {
+                "comentario": "Un excelente vino para disfrutar solo.",
+                "premium": false,
+                "fechaResena": "23/1/2016",
+                "puntaje": 6
+            },
+            {
+                "comentario": "Un vino con un final largo y agradable.",
+                "premium": true,
+                "fechaResena": "29/4/2022",
+                "puntaje": 0
+            },
+            {
+                "comentario": "Me encantó su suavidad y ligereza.",
+                "premium": true,
+                "fechaResena": "20/2/2024",
+                "puntaje": 7
+            }
+        ]
+    }
+]

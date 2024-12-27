@@ -1,0 +1,11 @@
+{
+    "type": "sqlite",
+    "database": "db/dbppai.db",
+    "synchronize": false,
+    "logging": false,
+    "entities": ["dist/entities/*.js"],
+    "cli": {
+      "entitiesDir": "dist/entities"
+    }
+  }
+  

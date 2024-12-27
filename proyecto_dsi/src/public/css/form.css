@@ -1,0 +1,70 @@
+.boton{
+    padding: 0.35rem;
+    background-color: lightgrey;
+    border: none;
+}
+.boton:hover{
+    padding: 0.3rem;
+    background-color: rgb(102, 25, 25);
+    color: #fff;
+    border: none;
+}
+.form-reportes {
+    width: 37.5rem; /* 600px / 16 */
+    margin: 3.125rem auto; /* 50px / 16 */
+    padding: 1.75rem; /* 28px / 16 */
+    background-color: #fff;
+    border-radius: 0.625rem; /* 10px / 16 */
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.5); /* 2px / 16, 5px / 16 */
+}
+
+.form-input {
+    margin: 3.125rem auto; /* 50px / 16 */
+    padding: 0.9375rem; /* 15px / 16 */
+    background-color: #fff;
+    border-radius: 0.625rem; /* 10px / 16 */
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.5); /* 2px / 16, 5px / 16 */
+}
+
+#tittle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.form-reportes div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-reportes div #cancelarGeneracionReporte {
+    float: right;
+}
+
+.form-reportes button {
+    border-radius: 0.21875rem; /* 3.5px / 16 */
+}
+
+#msjCancelacion, #msjError, #msjAlt {
+    display: none;
+    width: 37.5rem; /* 600px / 16 */
+    margin: 3.125rem auto; /* 50px / 16 */
+    padding: 1.75rem; /* 28px / 16 */
+    background-color: #fff;
+    border-radius: 0.625rem; /* 10px / 16 */
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.5); /* 2px / 16, 5px / 16 */
+    text-align: center;
+}
+
+#msjCancelacion p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1.25rem; /* 20px / 16 */
+}
+
+#msjCancelacion button {
+    border-radius: 0.21875rem; /* 3.5px / 16 */
+}
+
+#errorFecha{
+    color: red; 
+    display: none;
+}
